@@ -1,14 +1,13 @@
 
 
 
-//write your code here
+//Genera dominios a partir de diferentes arreglos 
 function DomainGenerator() {
 
   let pronouns = ['the', 'our'];
   let adjs = ['great', 'big'];
   let nouns = ['jogger', 'racoon'];
-  //freestyle
-  let domains = [".com", ".es", ".net"];
+  
 
   for (let pronoun in pronouns) {
     for (let adj in adjs) {
